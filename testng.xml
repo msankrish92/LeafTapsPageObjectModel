@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<test thread-count="5" name="Test" verbose="5">
+		<parameter name="Url"
+			value="http://leaftaps.com/opentaps/control/main"></parameter>
+		<classes>
+			<class name="org.leaftaps.testcases.TC001_LoginLogOut"></class>
+			<class name="org.leaftaps.testcases.TC002_CreateLead"></class>
+			<class name="org.leaftaps.testcases.TC003_EditLead"></class>
+			<class name="org.leaftaps.testcases.TC004_DeleteLead"></class>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

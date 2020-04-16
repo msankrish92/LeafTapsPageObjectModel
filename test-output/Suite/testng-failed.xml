@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Url" value="http://leaftaps.com/opentaps/control/main"/>
+    <classes>
+      <class name="org.leaftaps.testcases.TC004_DeleteLead">
+        <methods>
+          <include name="setExcelPath"/>
+          <include name="excelDate"/>
+          <include name="deleteLead" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- org.leaftaps.testcases.TC004_DeleteLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
